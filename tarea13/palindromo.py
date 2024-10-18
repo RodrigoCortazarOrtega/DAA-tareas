@@ -10,7 +10,9 @@ def digitsCount(number):
             return digits
 
 
-def isPalindrome(d,n):
+def isPalindrome(digits,number):
+    d=digits
+    n=number
     i=0
     repeticiones=d//2
     while(i<repeticiones):
