@@ -1,6 +1,6 @@
 
 
-def revertirCadena(s: str) -> str:
+def revertirVocales(s: str) -> str:
     v = {"a": "a", "e": "e", "i": "i", "o": "o", "u": "u",
          "A": "A", "E": "E", "I": "I", "O": "O", "U": "U"}
     # Convertimos la cadena en una lista de caracteres(Debido a que los string son inmutables)
@@ -20,5 +20,5 @@ def revertirCadena(s: str) -> str:
     # Convertimos la lista de vuelta a cadena
     return ''.join(s)
 # Prueba de la función
-print(revertirCadena("Lapiz"))
-print(revertirCadena("Icecream"))
+print(revertirVocales("Lapiz"))
+print(revertirVocales("Icecream"))
