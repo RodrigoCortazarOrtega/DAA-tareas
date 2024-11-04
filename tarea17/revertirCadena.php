@@ -3,10 +3,8 @@ function revertirVocales($s) {
     $v = ["a" => "a", "e" => "e", "i" => "i",
         "o" => "o", "u" => "u", "A" => "A", "E" => "E",
         "I" => "I", "O" => "O", "U" => "U"];
-
     $i = 0;
     $j = strlen($s) - 1;
-
     while ($i < $j) {
         if (!array_key_exists($s[$i], $v)) {
             $i++;
@@ -22,7 +20,6 @@ function revertirVocales($s) {
     }
     return $s;
 }
-
 echo revertirVocales("lapiz") . "\n";
 echo revertirVocales("Icecream") . "\n";
-?>
+?>  
